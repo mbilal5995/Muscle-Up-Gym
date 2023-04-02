@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+       
+    }
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header .header-logo{
+    width: 20%;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: yellow;
+}

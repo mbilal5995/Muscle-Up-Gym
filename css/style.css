@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arapey';
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding-bottom: 10px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+header .header-logo {
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+header .header-logo img {
+    width: 13%;
+}
+
+header nav {
+    width: 50%;
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    /* : 20px; */
+}
+
+header nav ul li a:hover {
+    color: #ffffff;
+    transition: all ease-in-out 0.3s;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 7px;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px 40px;
+    border-radius: 49px;
+}
+
+header .contact-us {
+    margin-right: 178px;
+}
+
+header .contact-us a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+    padding: 20px 0;
+    width: 250px;
+    text-align: center;
+    display: block;
+    border: 15px;
+}
+
+header .contact-us a:hover {
+    color: #000;
+    background-color: #ffffff;
+    transition: all ease-in-out 0.3s;
+    padding: 15px 20px;
+    border-radius: 35px;
+}
+
+.banner {
+    background: url(../img/bg.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+.banner .banner-content {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 131px;
+}
+
+.banner .banner-content p {
+    color: #ffffff;
+    font-size: 136px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ffffff;
+    /*background-color: #000;*/
+    width: 100%;
+    border-radius: 15px;
+}
+
+.banner-content a {
+    display: block;
+    color: #000;
+    font-size: 42px;
+    text-decoration: none;
+    margin: 20px 0;
+    position: relative;
+}
+
+.banner-content a:hover span {
+    left: 40%;
+    transition: all ease-in-out 0.3s;
+}
+
+.banner-content a span {
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 20px;
+    content: '';
+    top: 14px;
+    left: 30%;
+    background: url(../img/arrow.png)no-repeat;
+}
+
+input#lname {
+    background: transparent;
+    border: 1px solid #000;
+    padding: 25px;
+    font-size: 46px;
+    margin: 22px 0;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+input#lname:hover {
+    background-color: #000;
+    transition: all ease-in-out 0.4s;
+}
+
+form#form {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    margin: 0 auto;
+}
+
+.form h2 {
+    font-size: 60px;
+    color: #000;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+input[type="submit"] {
+    background: transparent;
+    width: 100%;
+    align-items: center;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+    display: flex;
+    font-size: 43px;
+    justify-content: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #000;
+    transition: all ease-in-out 0.4s;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+.location h2 {
+    font-size: 60px;
+    color: #000;
+    align-items: center;
+    text-align: center;
+}
+
+.location .container {
+    padding-top: 200px;
+}
+
+.location img {
+    width: 100%;
+    padding-top: 90px;
+}
+
+.contact h2 {
+    font-size: 60px;
+    color: #000;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.contact .container {
+    padding-top: 50px;
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    margin: 75px 0;
+    display: block;
+}
+
+.contact ul li a:hover span {
+    margin-left: 75px;
+    transition: all ease-in-out 0.3s;
+}
+
+.contact ul li a span {
+    margin-left: 61px;
+    margin-top: -33px;
+    display: block;
+    font-size: 26px;
+    color: #000;
+}
